@@ -1,0 +1,12 @@
+// hedaer style
+
+.main-header{    
+    .navbar-brand{
+        max-width: 120px;
+    }
+    .navbar-nav{
+        .nav-link{
+            color: $site-color !important;
+        }
+    }
+}

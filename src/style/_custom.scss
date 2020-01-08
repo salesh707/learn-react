@@ -1,0 +1,73 @@
+@import "./config";
+
+body {
+  color: $site-color;
+  font-size: 1rem;
+  line-height: 2rem;
+  // font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+img {
+  max-width: 100%;
+}
+h4 {
+  font-size: 1.125rem;
+}
+
+@import "./header";
+@import "./home";
+
+.common-sec {
+  padding: 3rem 0;
+}
+.btn-simple {
+  background-color: $highlight-color;
+  border: 2px solid $highlight-color;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  min-width: 150px;
+  text-align: center;
+}
+.entry-title {
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.elabo {
+  margin-bottom: 2rem;
+}
+
+.txt-orange {
+  color: $highlight-color;
+}
+
+.bg-gray {
+  background-color: $gray-color;
+}
+.bg-blue {
+  background-color: $highlight2-color;
+}
+.btn-simple.bg-blue {
+  border: 2px solid #375e97;
+  &:hover,
+  &:focus {
+    color: $highlight-color;
+  }
+}
+.main-footer {
+  background-color: $highlight2-color;
+  color: $white-color;
+  padding: 1rem 0;
+}

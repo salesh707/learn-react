@@ -1,0 +1,45 @@
+// home page style
+
+.banner-sec {
+  padding: 5rem 0;
+  color: $white-color;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  .link {
+    a {
+      margin-right: 15px;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.icon-bx {
+  .img {
+    margin-bottom: 1rem;
+  }
+}
+
+.icon-bx.d-flex {
+  .img {
+    width: 150px;
+    margin-bottom: 0;
+    margin-right: 15px;
+  }
+  .txt {
+    width: calc(100% - 165px);
+  }
+}
+
+.image-bx {
+  border: 1px solid #ccc;
+  padding-top: 15px;
+  min-height: 498px;
+  .img img {
+    min-height: 312px;
+    object-fit: cover;
+  }
+  .txt {
+    padding: 1rem;
+  }
+}
